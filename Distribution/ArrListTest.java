@@ -417,7 +417,7 @@ public class ArrListTest {
 		System.out.println("Items do not match at index " + i + ".");
 		System.out.println("Expected: " + exp.get(i));
 		System.out.println("Actual: " + act.get(i));
-		//return false;
+		return false;
 	    }
 	}
 	return true;
